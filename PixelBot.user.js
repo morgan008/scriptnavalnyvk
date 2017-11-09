@@ -5,8 +5,8 @@
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
-// @downloadURL  https://raw.githubusercontent.com/DarkKeks/PublicPixelBot/master/PixelBot.user.js
-// @updateURL    https://raw.githubusercontent.com/DarkKeks/PublicPixelBot/master/PixelBot.user.js
+// @downloadURL  https://github.com/topchik1/scriptnavalnyvk/raw/master/PixelBot.user.js
+// @updateURL    https://github.com/topchik1/scriptnavalnyvk/raw/master/PixelBot.user.js
 // @grant        none
 // ==/UserScript==
 
