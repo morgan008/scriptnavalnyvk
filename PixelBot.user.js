@@ -18,7 +18,7 @@ function CoiPixelBot() {
         image:  'https://i.imgur.com/rfaUxUq.png'
     };
 
-    CoiPixelBot.refreshTime = 300;
+    CoiPixelBot.refreshTime = 60;
 
     CoiPixelBot.pts = 30;
     CoiPixelBot.tc = "rgb(17, 17, 17)";
