@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
-// @version      3.5
+// @version      3.6
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
@@ -88,7 +88,7 @@ function CoiPixelBot() {
         CoiPixelBot.img = new Image();
         CoiPixelBot.img.crossOrigin = "Anonymous";
         CoiPixelBot.img.onload = function() {
-            CoiPixelBot.setState("Версия 3.5. Перезагрузил зону защиты.");
+            CoiPixelBot.setState("Версия 3.6. Теперь с рандомом. Перезагрузил зону защиты.");
             if (CoiPixelBot.inited) CoiPixelBot.getFullData();
         };
         CoiPixelBot.img.src = CoiPixelBot.urlGen.image();
@@ -196,8 +196,8 @@ function CoiPixelBot() {
 
     CoiPixelBot.getFullData = function() {
         CoiPixelBot.pixs = [];
-        // CoiPixelBot.pixs = CoiPixelBot.randomShuffle(CoiPixelBot.getData(0)
-        //     .concat(CoiPixelBot.getData(795)));
+        CoiPixelBot.pixs = CoiPixelBot.randomShuffle(CoiPixelBot.getData(0)
+            .concat(CoiPixelBot.getData(795)));
         CoiPixelBot.pixs = CoiPixelBot.getData(0).concat(CoiPixelBot.getData(795));
         CoiPixelBot.setState("осталось точек:" + CoiPixelBot.pixs.length);
         return CoiPixelBot.pixs.length;
