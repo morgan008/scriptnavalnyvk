@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
-// @version      3.1
+// @version      3.2
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
