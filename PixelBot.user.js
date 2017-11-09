@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
-// @version      3.2
+// @version      3.3
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
@@ -40,7 +40,7 @@ function CoiPixelBot() {
 
     CoiPixelBot.state = document.createElement("div");
     CoiPixelBot.state.onclick = CoiPixelBot.reload;
-    CoiPixelBot.state.textContent = "Загрузка приложения...";
+    CoiPixelBot.state.textContent = "Версия @version. Загрузка приложения...";
     Object.assign(CoiPixelBot.state.style, {
         background: "rgba(0,0,0,0.5)",
         bottom: "0px",
